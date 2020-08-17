@@ -1,0 +1,36 @@
+{
+  "name": "iterators-e-generators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "10": "node -r esm src/10-memory-usage.js",
+    "11": "node -r esm src/11-memory-usage.js",
+    "01": "node -r esm src/01-iterator.js",
+    "02": "node -r esm src/02-iterable.js",
+    "03": "node -r esm src/03-iterable-call-next.js",
+    "04": "node -r esm src/04-native-iterables.js",
+    "05": "node -r esm src/05-generator.js",
+    "06": "node -r esm src/06-generator-with-params.js",
+    "07": "node -r esm src/07-generator-with-params.js",
+    "08": "node -r esm src/08-yield-with-asterisk.js",
+    "09": "node -r esm src/09-cpu-performance.js",
+    "generate-mock": "node -r esm src/mock/generate-mock.js"
+  },
+  "keywords": [],
+  "author": "Tiago Santos Da Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "esm": "^3.2.25",
+    "random-name": "^0.1.2"
+  }
+}
